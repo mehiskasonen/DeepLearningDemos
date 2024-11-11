@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ANN"
+version = "0.1.0"
+description = "Artificial Neural Network implementation"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+authors = [
+  { name="Mehis Kasonen", email="mehis.kasonen@gmail.com" },
+]
+
+dependencies = [
+    "numpy==2.1.3",
+    "pandas==2.2.3",
+    "scikit_learn==1.5.2",
+    "tensorflow==2.16.1"
+]
